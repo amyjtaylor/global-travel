@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destinations</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./bootstrap.css">
+</head>
+<body>
+
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand d-flex align-items-center" href="Destinations.html">
+                <img src="logo.jpg" alt="Logo" class="navbar-logo">
+                <span style="color:white; margin-left: 10px;">Global Travel</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item mx-5">
+                        <a class="nav-link" href="Home.html" style="color:white">Home</a>
+                    </li>
+                    <li class="nav-item mx-5">
+                        <a class="nav-link active" aria-current="page" href="Destinations.html" style="color:grey">Destinations</a>
+                    </li>
+                    <li class="nav-item mx-5">
+                        <a class="nav-link" href="GP-contact.html" style="color:white">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Search Form in navbar-->
+            <form class="d-flex ms-auto me-3">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    
+    <!--Images-->
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <a href="#" class="destination-link" data-toggle="modal" data-target="#europeModal">
+                    <div class="image-container">
+                        <img src="Europe.jpeg" class="img-fluid" alt="Europe">
+                        <span class="overlay-text">Europe</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4 mb-4">
+                <a href="#" class="destination-link" data-toggle="modal" data-target="#asiaModal">
+                    <div class="image-container">
+                        <img src="Asia.jpeg" class="img-fluid" alt="Asia">
+                        <span class="overlay-text">Asia</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4 mb-4">
+                <a href="#" class="destination-link" data-toggle="modal" data-target="#australiaModal">
+                    <div class="image-container">
+                        <img src="Australia.jpeg" class="img-fluid" alt="Australia">
+                        <span class="overlay-text">Australia</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4 mb-4">
+                <a href="#" class="destination-link" data-toggle="modal" data-target="#northAmericaModal">
+                    <div class="image-container">
+                        <img src="Newyork.jpeg" class="img-fluid" alt="North America">
+                        <span class="overlay-text">North America</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4 mb-4">
+                <a href="#" class="destination-link" data-toggle="modal" data-target="#southAmericaModal">
+                    <div class="image-container">
+                        <img src="rio.jpeg" class="img-fluid" alt="South America">
+                        <span class="overlay-text">South America</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4 mb-4">
+                <a href="#" class="destination-link" data-toggle="modal" data-target="#africaModal">
+                    <div class="image-container">
+                        <img src="Africa.jpeg" class="img-fluid" alt="Africa">
+                        <span class="overlay-text">Africa</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4 mb-4">
+                <a href="#" class="destination-link" data-toggle="modal" data-target="#antarcticaModal">
+                    <div class="image-container">
+                        <img src="antartica.jpeg" class="img-fluid" alt="Antarctica">
+                        <span class="overlay-text">Antarctica</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Modals -->
+    <div class="modal fade" id="europeModal" tabindex="-1" role="dialog" aria-labelledby="europeModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="europeModalLabel">Europe</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Europe, a continent of rich cultural heritage and diverse landscapes, offers a wide array of travel experiences.</p>    
+                    <p><strong>Western Europe:</strong> Home to iconic cities like Paris, London, and Rome. Attractions include the Eiffel Tower, Big Ben, the Colosseum, and many more. This region is known for its art, architecture, and history.</p>
+                    <p><strong>Central Europe:</strong> Countries like Germany, Austria, and Switzerland boast stunning landscapes, from the Bavarian Alps to the Black Forest. Cities like Berlin, Vienna, and Zurich blend modernity with historical charm.</p>
+                    <p><strong>Eastern Europe:</strong>  Offers a mix of medieval architecture and vibrant modern culture. Prague, Budapest, and Krakow are notable cities with rich histories and lively arts scenes.
+                    <p><strong>Southern Europe:</strong> Famous for its warm climate and beautiful coastlines. Italy, Spain, Portugal, and Greece offer cultural heritage, delicious cuisine, and scenic spots like the Amalfi Coast, Barcelona, Lisbon, and the Greek islands.
+                    <p><strong>Northern Europe:</strong>  Known for its stunning natural landscapes and unique cultures. Sweden, Norway, Denmark, and Finland provide experiences like the Northern Lights, fjords, and Viking history.
+                    <p>Europe’s compact size and diverse offerings make it a prime destination for a variety of interests.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="asiaModal" tabindex="-2" role="dialog" aria-labelledby="asiaModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="asiaModalLabel">Asia</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Asia, the world’s largest and most diverse continent, offers a wealth of travel experiences spanning ancient traditions to modern marvels.</p>
+                    <p><strong>East Asia:</strong> is home to iconic landmarks such as China’s Great Wall and the Forbidden City, Japan’s bustling Tokyo and serene Kyoto, and South Korea’s vibrant Seoul and scenic Jeju Island. Taiwan’s night markets and natural wonders also attract many visitors.</p>
+                    <p><strong>Southeast Asia:</strong> boasts stunning landscapes and rich cultural heritage. Thailand’s beaches and temples, Vietnam’s Halong Bay and historic sites, Cambodia’s Angkor Wat, and Indonesia’s Bali and Borobudur offer a mix of natural beauty and historical intrigue.</p>
+                    <p><strong>South Asia:</strong> is known for its diverse cultures and landscapes. India’s cultural heritage includes the Taj Mahal, bustling cities, and varied cuisines. Nepal’s Himalayas provide trekking opportunities, while Sri Lanka’s beaches and ancient ruins are highlights.</p>
+                    <p><strong>Central Asia:</strong> features the Silk Road’s historic cities, such as Samarkand and Bukhara in Uzbekistan, and Kazakhstan’s vast steppes and natural wonders.</p>
+                    <p><strong>West Asia:</strong> (or the Middle East) includes Dubai’s modern skyline, ancient Petra in Jordan, and Turkey’s blend of European and Asian cultures with sites like Istanbul and Cappadocia.</p>
+                    <p>Asia’s blend of ancient history, natural wonders, and vibrant cities ensures a rich and varied travel experience.</p>    
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="australiaModal" tabindex="-1" role="dialog" aria-labelledby="australiaModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="australiaModalLabel">Australia</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Australia, the world's smallest continent and largest island, offers diverse travel experiences. Key cities include Sydney, known for the iconic Sydney Opera House and Harbour Bridge; Melbourne, celebrated for its vibrant arts scene and coffee culture; and Brisbane, a gateway to the Gold Coast's beaches and theme parks. Natural wonders abound, such as the Great Barrier Reef, ideal for diving and snorkeling, and Uluru in the Outback, a sacred site of immense cultural significance.</p>
+                    <p>Western Australia boasts the Pinnacles Desert and the wineries of Margaret River, while South Australia's Kangaroo Island offers wildlife encounters and pristine beaches. Tasmania, an island state, is renowned for its rugged wilderness and historic sites like Port Arthur.</p>
+                    <p>The climate varies, with tropical conditions in the north, temperate zones in the south, and arid landscapes in the interior. Australia's spring (September to November) and autumn (March to May) are generally the best times to visit due to mild weather.</p>
+                    <p>The country is well-connected by flights, making it easy to explore its vast landscapes. Public transport is efficient in major cities, complemented by a network of domestic flights and long-distance trains for interstate travel.</p>
+                    <p>Australia's diverse ecosystems, rich indigenous heritage, and modern urban experiences make it a compelling destination for travelers seeking adventure and cultural enrichment.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="northAmericaModal" tabindex="-1" role="dialog" aria-labelledby="northAmericaModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="northAmericaModalLabel">North America</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>North America, comprising Canada, the United States, and Mexico, offers a diverse range of travel experiences.</p>
+                    <p><strong>Canada:</strong> features stunning natural beauty with destinations like Banff and Jasper National Parks in the Rockies, known for their majestic landscapes and outdoor activities. Cities such as Toronto and Vancouver are vibrant and multicultural, offering cultural attractions, dining, and entertainment. Montreal and Quebec City, with their European charm, offer unique cultural experiences.</p>
+                    <p><strong>The United States:</strong> is incredibly varied, from the bustling cities of New York and Los Angeles to the natural wonders of the Grand Canyon and Yellowstone. The U.S. offers world-class entertainment in cities like Las Vegas and Orlando, as well as historical landmarks in Washington, D.C., and Boston. The diverse climate ranges from tropical in Florida to arctic in Alaska, catering to all travel preferences.</p>
+                    <p><strong>Mexico:</strong> is known for its rich cultural heritage, with ancient ruins like Teotihuacan and Chichen Itza, vibrant cities like Mexico City and Guadalajara, and beautiful beach destinations such as Cancun and Playa del Carmen. The country’s cuisine, music, and festivals add to its appeal.</p>
+                    <p>North America’s diverse landscapes, from beaches to mountains, and its rich cultural tapestry provide endless opportunities for exploration and adventure.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="southAmericaModal" tabindex="-1" role="dialog" aria-labelledby="southAmericaModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="southAmericaModalLabel">South America</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>South America is a continent of remarkable diversity and natural beauty, offering a rich tapestry of experiences.</p>
+                    <p><strong>Brazil:</strong> the largest country, is famous for its vibrant cities like Rio de Janeiro and Sao Paulo, and iconic landmarks such as the Christ the Redeemer statue. The Amazon Rainforest, the world’s largest tropical rainforest, offers unparalleled biodiversity and adventure.</p>
+                    <p><strong>Argentina:</strong> boasts diverse landscapes from the rugged Andes mountains to the stunning Patagonia region. Buenos Aires, known for its European-style architecture and tango music, contrasts with the natural wonders of Iguazu Falls and the glacier-filled southern regions.</p>
+                    <p><strong>Chile:</strong> features the Atacama Desert, one of the driest places on Earth, and the picturesque fjords and glaciers of Patagonia. Santiago and Valparaiso offer dynamic urban experiences alongside stunning natural settings.</p>
+                    <p><strong>Peru:</strong> is renowned for its rich history and archaeological sites, including Machu Picchu, an ancient Incan city set high in the Andes. Lima provides a vibrant culinary scene and cultural attractions.</p>
+                    <p><strong>Columbia and Ecuador:</strong> offer lush rainforests, colonial cities, and beautiful coastlines. Bogotá and Quito are known for their historic architecture and cultural richness.</p>
+                    <p>South America’s unique blend of cultures, landscapes, and vibrant cities make it a fascinating and diverse travel destination.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="africaModal" tabindex="-1" role="dialog" aria-labelledby="africaModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="africaModalLabel">Africa</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Africa is a continent of extraordinary diversity, offering a wide range of experiences from ancient history to breathtaking landscapes.</p>
+                    <p><strong>North Africa:</strong> features the Sahara Desert and historical treasures such as the Pyramids of Giza in Egypt, while Morocco’s vibrant cities like Marrakech and Fez are known for their rich culture and architecture. Tunisia and Algeria offer archaeological sites and Mediterranean beaches.</p>
+                    <p><strong>Sub-Saharan Africa:</strong> is characterized by its stunning landscapes and wildlife. East Africa is renowned for its safaris, with Kenya’s Maasai Mara and Tanzania’s Serengeti providing incredible wildlife viewing, including the Great Migration. Zanzibar and the Seychelles offer pristine beaches and crystal-clear waters.</p>
+                    <p><strong>Southern Africa:</strong> boasts dramatic scenery and diverse wildlife. South Africa’s cities like Cape Town and Johannesburg blend modernity with historical sites, while the Kruger National Park offers premier safari experiences. Namibia’s dunes and Botswana’s Okavango Delta are highlights for nature enthusiasts.</p>
+                    <p><strong>West Africa:</strong> is rich in cultural diversity, with Ghana’s historical forts, Nigeria’s bustling cities, and Senegal’s vibrant music and arts scene. Central Africa includes the Congo Basin, with dense rainforests and unique wildlife.</p>
+                    <p>Africa’s blend of natural beauty, wildlife, and cultural heritage makes it a continent of endless adventure and discovery.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="antarcticaModal" tabindex="-1" role="dialog" aria-labelledby="antarcticaModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="antarcticaModalLabel">Antarctica</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Antarctica, the coldest and most remote continent, offers a unique and otherworldly travel experience. The continent is renowned for its stark, pristine landscapes of ice and snow, providing unparalleled opportunities for adventure and scientific exploration.</p>
+                    <p><strong>Wildlife</strong> is a major draw, with visitors able to observe Emperor penguins, seals, and various seabirds in their natural habitats. The continent's ice-covered terrain includes the massive Antarctic Ice Sheet and breathtaking icebergs, which offer dramatic scenery and excellent photographic opportunities.</p>
+                    <p><strong>Tourism</strong> is typically limited to guided cruises and expeditions from November to March, during the austral summer, when conditions are less severe. Activities include ice climbing, kayaking, and visits to research stations. Notable destinations include the Antarctic Peninsula, where many cruises explore the icy fjords and islands, and the Ross Sea, known for its historic expeditions and the stunning Transantarctic Mountains.</p>
+                    <p>Travel to Antarctica is highly regulated to preserve its fragile environment. Visitors should prepare for extreme cold, high winds, and remote conditions. This destination is ideal for those seeking extraordinary natural beauty and a sense of isolation far from the bustling world. </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--footer-->
+    <footer>
+        <div class="socialmedia">
+            <a href="https:/www.facebook.com">
+                <img src="image-fb.png" alt="Facebook" aria-hidden="true" width="50">
+            </a>
+            <a href="https:/www.X.com">
+                <img src="image.X.png" alt="X" aria-hidden="true" width="50">
+            </a>
+            <a href="https:/www.instagram.com">
+                <img src="image.insta.png" alt="instagram" aria-hidden="true" width="50">
+            </a>
+        </div>
+        <br>
+        <div class="footer">
+            <p class="copyright">© 2024 Global Travel</p>
+        </div>
+    </footer>
+    
+
+</body>
+
+
+
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+
+
+
+</html>
