@@ -1,0 +1,97 @@
+/* style.css */
+body {
+        background-color: white; /* This should change the background color of your page */
+        font-family: "Fira Sans Condensed", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+    }
+    
+.navbar-nav .nav-link {
+        text-decoration: none; /* Remove default underline */
+        font-size: 1.25rem; /* Increase font size */
+        font-family: "Fira Sans Condensed", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+    }
+    
+.navbar-logo {
+        width: 50px; /* Adjust the size of the logo to be smaller */
+        height: auto; /* Maintain aspect ratio */
+    }
+    
+.navbar-nav .nav-item .nav-link.active {
+        color: grey; /* Ensure color matches your design */
+        text-decoration: underline; /* Underlines the link */
+        font-family: "Fira Sans Condensed", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+    }
+    
+    
+.navbar-nav .nav-link:hover {
+        text-decoration: underline; /* Add underline on hover */
+    }
+
+.container{ 
+width:800px;
+padding-right: 15px;
+padding-left: 15px;
+margin-right: auto;
+margin-left: auto; 
+font-family: "Fira Sans Condensed", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+
+}
+
+h4 {
+        height: 40px;
+        color: rgb(64, 64, 64);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: "Fira Sans Condensed", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+    }
+
+.form-check {
+        font-family: "Fira Sans Condensed", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+}
+
+.button{
+        display: inline-block;
+        padding: 6px 12px;
+        margin-bottom: 0;
+        font-family: "Fira Sans Condensed", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        background-color: rgb(75, 75, 75);
+        color: white;
+        border-radius:30px;
+        text-align: center;
+}
+
+.socialmedia{
+        width:200px;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto; 
+        font-family: "Fira Sans Condensed", sans-serif;
+                font-weight: 300;
+                font-style: normal;    
+}
+.footer{
+        width:200px;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto; 
+        font-family: "Fira Sans Condensed", sans-serif;
+                font-weight: 300;
+                font-style: normal;
+}
+
